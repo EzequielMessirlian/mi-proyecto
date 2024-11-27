@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compra los mejores productos para tu cuidado personal en Milenium Estética.">
+    <meta name="keywords" content="productos, estética, cuidado personal, belleza, cosmética">
+    <meta name="author" content="Milenium Estética">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Milenium Estética - Productos</title>
+</head>
+<body> 
+    <!-- HEADER -->
+    <header>
+        <h1>Milenium Estética</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="donde-estamos.html">¿Dónde estamos?</a></li>
+                <li><a href="listas-de-precios.html">Listas de Precios</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="servicios.html">Más servicios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN: Productos -->
+
+    <section class="productos">
+        <h2>Productos Disponibles</h2>
+        <div class="productos-container">
+            
+            <div class="producto-item" data-id="1" data-nombre="Shampoo Hidratante" data-precio="18.00">
+                <img src="../img/shampoohidratante.png" alt="Shampoo Hidratante para el cabello">
+                <h3>Shampoo Hidratante</h3>
+                <p>$18.00</p>
+                <button class="agregar-carrito">Agregar al carrito</button>
+            </div>
+    
+            <div class="producto-item" data-id="2" data-nombre="Acondicionador Reparador" data-precio="22.00">
+                <img src="../img/acondicionadorreparador.png" alt="Acondicionador Reparador para el cabello">
+                <h3>Acondicionador Reparador</h3>
+                <p>$22.00</p>
+                <button class="agregar-carrito">Agregar al carrito</button>
+            </div>
+    
+            <div class="producto-item" data-id="3" data-nombre="Crema Para Manos" data-precio="15.00">
+                <img src="../img/Cremaparamanos.png" alt="Crema para manos hidratante">
+                <h3>Crema Para Manos</h3>
+                <p>$15.00</p>
+                <button class="agregar-carrito">Agregar al carrito</button>
+            </div>
+     
+            <div class="producto-item" data-id="4" data-nombre="Gel Facial Rejuvenecedor" data-precio="30.00">
+                <img src="../img/gelrejuvenecedor.png" alt="Gel facial rejuvenecedor para el rostro">
+                <h3>Gel Facial Rejuvenecedor</h3>
+                <p>$30.00</p>
+                <button class="agregar-carrito">Agregar al carrito</button>
+            </div>
+
+            <div class="producto-item" data-id="5" data-nombre="Mascarilla Capilar" data-precio="25.00">
+                <img src="../img/mascarillacapilar.png" alt="Mascarilla capilar nutritiva">
+                <h3>Mascarilla Capilar</h3>
+                <p>$25.00</p>
+                <button class="agregar-carrito">Agregar al carrito</button>
+            </div>
+
+            <div class="producto-item" data-id="6" data-nombre="Perfume Corporal" data-precio="20.00">
+                <img src="../img/perfumecorporall.jpeg" alt="Perfume corporal de fragancia floral">
+                <h3>Perfume Corporal</h3>
+                <p>$20.00</p>
+                <button class="agregar-carrito">Agregar al carrito</button>
+            </div>
+
+        </div>
+    </section>
+
+<!-- Sección del Carrito -->
+<section class="carrito">
+    <h2>Tu Carrito</h2>
+    <div id="carrito-contenedor">
+        <!-- Acá se agregarán los productos del carrito -->
+    </div>
+
+    <div id="carrito-total">
+        <p>Total: $<span id="total">0.00</span></p>
+        <button id="vaciar-carrito">Vaciar Carrito</button>
+        <button id="comprar">Comprar</button>
+    </div>
+</section>
+
+     <!-- FOOTER -->
+     <footer id="footer">
+        <h2><a href="../index.html">Milenium Estética</a></h2>
+
+        <div class="social-media">
+            <a href="https://www.instagram.com/mileniumdinahuapi?igsh=dHEyOXhkZ3V4bGU3" target="_blank" rel="noopener noreferrer" aria-label="Síguenos en Instagram">
+                Síguenos en Instagram <img src="../img/iglogo.png" alt="Logo de Instagram" />
+            </a>
+
+            <a href="https://wa.me/5491234567890" target="_blank" rel="noopener noreferrer" aria-label="Escríbenos por WhatsApp">
+                Escríbenos por WhatsApp <img src="../img/wpplogo.png" alt="Logo de WhatsApp" />
+            </a>
+
+            <a href="https://www.facebook.com/Mileniumdinahuapi?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer" aria-label="Chusmeanos en Facebook">
+                Chusmeanos en Facebook <img src="../img/fblogo.png" alt="Logo de Facebook" />
+            </a>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
